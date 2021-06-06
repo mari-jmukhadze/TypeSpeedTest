@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="jquery-3.5.1.min.js"></script> 
+        <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
+        <title>speed typing</title>
+    </head>
+
+    <body>
+        <h1>Speed Typing</h1>
+        <!-- <p>Type txt below</p> -->
+        <p>Timer:</p>
+        <div id="timer" class="container">
+
+        </div>
+        
+        <div class="container" id="test">
+            <p id="testtext">
+                
+            </p>
+            <button onclick="startgame()">
+                Click to start your test!
+            </button>
+        </div>
+        <textarea id="txt" oninput="current_text()" onfocus="timer()">
+
+        </textarea>
+        <script src="script.js"></script>
+    </body>
+</html>
